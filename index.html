@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus Pass System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Bus Pass Management System</h1>
+
+<div class="form-box">
+    <h2>Apply for Bus Pass</h2>
+
+    <form id="passForm">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="text" id="address" placeholder="Address" required>
+        <input type="text" id="reason" placeholder="Travel Reason" required>
+        <input type="date" id="date" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="message"></p>
+</div>
+
+<h2 id="count">Issued Passes (0)</h2>
+<ul id="passList"></ul>
+
+
+
+<script src="js/script.js"></script>
+  
+</script>
+</body>
+</html>
